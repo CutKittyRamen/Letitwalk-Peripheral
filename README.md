@@ -54,11 +54,24 @@ letitwalk_cc/
 
 ## Building from Source
 
-To compile and produce the JAR:
-```powershell
-./build_jar.ps1
+This mod uses standard **Gradle** with the **NeoForge ModDevGradle** plugin. The repository bundles the Gradle wrapper (`gradlew`) and necessary dependencies in `libs/`, so it compiles cleanly on **any PC (Windows, macOS, Linux)** with Java 21:
+
+### On Windows:
+```cmd
+gradlew.bat build
 ```
-The output JAR is generated at `build/letitwalk_cc-1.0.0.jar`.
+
+### On Linux / macOS:
+```bash
+./gradlew build
+```
+
+The resulting mod JAR will be located at:
+```
+build/libs/letitwalk_cc-1.0.0.jar
+```
+
+*(Optional)* A standalone PowerShell script `build_jar.ps1` is also included for fast, direct javac builds on Windows.
 
 ---
 

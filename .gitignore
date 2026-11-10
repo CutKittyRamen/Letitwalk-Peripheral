@@ -1,4 +1,5 @@
-# Build directories & outputs
+# Gradle cache & build directories
+.gradle/
 build/
 bin/
 out/
