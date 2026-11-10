@@ -11,6 +11,8 @@
 
 A NeoForge 1.21.1 addon for [Let It Walk](https://modrinth.com/mod/let-it-walk) that turns walking mechs and contraptions into fully programmable, autonomous units controlled via **ComputerCraft: Tweaked**.
 
+**Authors:** CutCatRamen, Antigravity
+
 ---
 
 ## Features
