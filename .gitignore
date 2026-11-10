@@ -4,6 +4,7 @@ build/
 bin/
 out/
 *.class
+*.jar
 
 # IDE & OS files
 .idea/
