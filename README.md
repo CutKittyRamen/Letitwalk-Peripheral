@@ -44,9 +44,7 @@ letitwalk_cc/
 ├── lua/
 │   ├── walker_pilot.lua                         # Keyboard cockpit HUD
 │   └── walker_auto.lua                          # Autonomous waypoint navigation
-├── libs/                                        # Extracted companion compile dependencies
-├── compile.ps1                                  # Standalone javac compiler script
-├── build_jar.ps1                                # Full JAR packaging script
+├── libs/                                        # Bundled compile dependencies
 └── README.md
 ```
 
@@ -70,8 +68,6 @@ The resulting mod JAR will be located at:
 ```
 build/libs/letitwalk_cc-1.0.0.jar
 ```
-
-*(Optional)* A standalone PowerShell script `build_jar.ps1` is also included for fast, direct javac builds on Windows.
 
 ---
 
