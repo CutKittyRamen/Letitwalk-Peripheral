@@ -1,0 +1,12 @@
+# Build directories & outputs
+build/
+bin/
+out/
+*.class
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db

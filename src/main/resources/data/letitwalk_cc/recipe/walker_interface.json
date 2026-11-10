@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "let_it_walk:klaxium_casing"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " R ",
+    "ICI",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "letitwalk_cc:walker_interface"
+  }
+}

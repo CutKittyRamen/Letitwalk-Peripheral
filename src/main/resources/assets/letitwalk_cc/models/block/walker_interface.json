@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "let_it_walk:block/klaxium_casing",
+    "bottom": "let_it_walk:block/klaxium_casing",
+    "side": "let_it_walk:block/klaxium_casing",
+    "front": "letitwalk_cc:block/walker_interface_front"
+  }
+}

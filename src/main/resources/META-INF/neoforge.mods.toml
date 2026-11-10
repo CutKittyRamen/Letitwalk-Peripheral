@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "letitwalk_cc"
+version = "1.0.0"
+displayName = "Let it Walk: ComputerCraft Addon"
+authors = "Antigravity"
+description = '''ComputerCraft peripheral support for Let it Walk! Interface with and pilot walker contraptions using ComputerCraft computers, programs, and automation.'''
+
+[[dependencies."letitwalk_cc"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."letitwalk_cc"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."letitwalk_cc"]]
+modId = "let_it_walk"
+type = "required"
+versionRange = "[0.1.4,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."letitwalk_cc"]]
+modId = "computercraft"
+type = "required"
+versionRange = "[1.117,)"
+ordering = "AFTER"
+side = "BOTH"

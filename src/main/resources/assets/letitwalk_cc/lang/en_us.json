@@ -1,0 +1,8 @@
+{
+  "itemGroup.letitwalk_cc": "Let it Walk: ComputerCraft",
+  "block.letitwalk_cc.walker_interface": "Walker Computer Interface",
+  "letitwalk_cc.link.interface": "Walker Computer Interface linked to this walker",
+  "letitwalk_cc.interface.status_linked": "Walker Interface: linked to remote walker %s",
+  "letitwalk_cc.interface.status_onboard": "Walker Interface: mounted on walker hull (ready)",
+  "letitwalk_cc.interface.status_unlinked": "Walker Interface: not on walker and not linked (right-click a Walker Core to link)"
+}
