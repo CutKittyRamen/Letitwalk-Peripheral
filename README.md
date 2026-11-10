@@ -44,7 +44,9 @@ letitwalk_cc/
 ├── lua/
 │   ├── walker_pilot.lua                         # Keyboard cockpit HUD
 │   └── walker_auto.lua                          # Autonomous waypoint navigation
-├── libs/                                        # Bundled compile dependencies
+├── build.gradle                                 # NeoForge ModDevGradle configuration
+├── gradle.properties
+├── settings.gradle
 └── README.md
 ```
 
@@ -52,7 +54,7 @@ letitwalk_cc/
 
 ## Building from Source
 
-This mod uses standard **Gradle** with the **NeoForge ModDevGradle** plugin. The repository bundles the Gradle wrapper (`gradlew`) and necessary dependencies in `libs/`, so it compiles cleanly on **any PC (Windows, macOS, Linux)** with Java 21:
+This mod uses standard **Gradle** with the **NeoForge ModDevGradle** plugin. All dependencies (Create, Let It Walk, Sable, CC: Tweaked) are resolved automatically via Maven, so it compiles cleanly on **any PC (Windows, macOS, Linux)** with Java 21:
 
 ### On Windows:
 ```cmd
