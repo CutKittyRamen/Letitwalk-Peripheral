@@ -1,5 +1,9 @@
 # Let It Walk: ComputerCraft Addon (`letitwalk_cc`)
 
+<p align="center">
+  <img src="icon.png" width="160" height="160" alt="Let It Walk CC Icon">
+</p>
+
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)]()
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1.249-orange.svg)]()
 [![CC: Tweaked](https://img.shields.io/badge/CC:%20Tweaked-1.120.2+-blue.svg)]()
@@ -39,11 +43,13 @@ letitwalk_cc/
 │       └── resources/
 │           ├── META-INF/neoforge.mods.toml      # Mod metadata & dependencies
 │           ├── pack.mcmeta
+│           ├── icon.png                         # Mod logo
 │           ├── assets/letitwalk_cc/             # Models, textures, blockstates, lang
 │           └── data/letitwalk_cc/               # Crafting recipes & tags
 ├── lua/
 │   ├── walker_pilot.lua                         # Keyboard cockpit HUD
 │   └── walker_auto.lua                          # Autonomous waypoint navigation
+├── icon.png                                     # Mod logo
 ├── build.gradle                                 # NeoForge ModDevGradle configuration
 ├── gradle.properties
 ├── settings.gradle

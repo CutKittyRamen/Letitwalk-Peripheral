@@ -8,6 +8,7 @@ version = "1.0.0"
 displayName = "Let it Walk: ComputerCraft Addon"
 authors = "Antigravity"
 description = '''ComputerCraft peripheral support for Let it Walk! Interface with and pilot walker contraptions using ComputerCraft computers, programs, and automation.'''
+logoFile = "icon.png"
 
 [[dependencies."letitwalk_cc"]]
 modId = "neoforge"
